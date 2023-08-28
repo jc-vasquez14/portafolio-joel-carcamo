@@ -1,0 +1,99 @@
+@font-face {
+    font-family: Poppins;
+    src: url('../fonts/Poppins-Regular.ttf');
+}
+
+body{
+    font-family: Poppins;
+    margin: 0px;
+}
+
+nav{
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    background-color: #1e90ff;
+    padding: 15px;
+}
+
+#botonContacto{
+    font-size: 1.2rem;
+    font-family: Poppins;
+    border: 0;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 5px 12px 5px 12px;
+}
+
+#botonContacto:hover{
+    background-color: rgb(0, 0, 131);
+    color: white;
+}
+
+#introduction{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 150px;
+}
+
+#detail-introduction{
+    display: flex;
+    flex-direction: column;
+}
+
+#parrafo-introduction{
+    margin: 0px 30px 0px 0px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#social-media{
+    margin: 20px 20px 20px 0px;
+}
+
+#myProfile{
+    display: flex;
+    width: 100%; 
+    height: auto; 
+    padding-bottom: 100px;
+    margin-bottom: 50px;
+    background: rgb(10,83,143);
+    background: linear-gradient(90deg, rgba(10,83,143,1) 15%, rgba(30,144,255,1) 72%); margin-top: 200px;
+}
+
+#about-me{
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    margin: 100px 300px 0px 300px;
+    color: white;
+}
+
+#img-about-me{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+}
+
+#Skills{
+    margin: 40px 20px 0px 20px;
+    
+}
+
+#mySkills{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#Skills:hover{
+    background-color: #81bbf59d;
+}
