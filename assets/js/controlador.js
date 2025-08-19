@@ -145,11 +145,11 @@
           if (i < text.length) {
             subtitle.textContent += text.charAt(i);
             i++;
-            setTimeout(type, 100);
+            setTimeout(type, 70);
           }
         }
 
-        setTimeout(type, 1500);
+        setTimeout(type, 50);
       }
 
       // Iniciar efecto de typing
